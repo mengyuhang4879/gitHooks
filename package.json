@@ -173,15 +173,11 @@
   "devDependencies": {
     "commitizen": "^4.2.5",
     "commitlint": "^17.1.2",
-    "commitlint-config-cz": "^0.13.3",
     "cross-env": "^7.0.3",
-    "cz-customizable": "^6.9.2",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.23.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
-    "prettier": "^2.7.1"
+    "lint-staged": "^13.0.3"
   },
   "config": {
     "commitizen": {
