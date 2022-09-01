@@ -22,7 +22,7 @@ class Actions {
     }
     // 映射
     setGlobalState(...args) {
-        // 按一级属性设置全局状态，微应用中只能修改已存在的一级属性
+    // 按一级属性设置全局状态，微应用中只能修改已存在的一级属性
         return this.actions.setGlobalState(...args);
     }
 }

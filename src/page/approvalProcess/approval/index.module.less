@@ -1,80 +1,80 @@
 .approval {
-    position: relative;
-    padding-bottom: 40px;
+  position: relative;
+  padding-bottom: 40px;
 
-    .header {
-        padding: 20px 300px;
-        margin: 0 auto;
-        background: white;
+  .header {
+    padding: 20px 300px;
+    margin: 0 auto;
+    background: white;
+    display: flex;
+    flex-direction: column;
+
+    .user {
+      margin-bottom: 20px;
+
+      .username {
+        font-size: 16px;
+        font-weight: bold;
+      }
+    }
+
+    .status {
+      display: flex;
+      justify-content: space-between;
+
+      .status-top {
+        font-size: 12px;
         display: flex;
         flex-direction: column;
 
-        .user {
-            margin-bottom: 20px;
-
-            .username {
-                font-size: 16px;
-                font-weight: bold;
-            }
+        & > span:first-child {
+          margin-bottom: 5px;
+          color: #cccccc;
         }
+      }
+    }
+  }
 
-        .status {
-            display: flex;
-            justify-content: space-between;
+  .content {
+    width: 1000px;
+    margin: 30px auto;
 
-            .status-top {
-                font-size: 12px;
-                display: flex;
-                flex-direction: column;
-
-                & > span:first-child {
-                    margin-bottom: 5px;
-                    color: #cccccc;
-                }
-            }
-        }
+    :global {
+      .tenant-card {
+        margin-bottom: 20px;
+      }
     }
 
-    .content {
-        width: 1000px;
-        margin: 30px auto;
-
+    .change-log {
+      .change-log-item {
+        margin-top: 20px;
+        display: flex;
         :global {
-            .tenant-card {
-                margin-bottom: 20px;
-            }
+          .tenant-tag {
+            height: 20px;
+          }
+          .tenant-steps-item-wait
+            .tenant-steps-item-icon
+            > .tenant-steps-icon
+            .tenant-steps-icon-dot {
+            background: #108ee9;
+          }
         }
-
-        .change-log {
-            .change-log-item {
-                margin-top: 20px;
-                display: flex;
-                :global {
-                    .tenant-tag {
-                        height: 20px;
-                    }
-                    .tenant-steps-item-wait
-                        .tenant-steps-item-icon
-                        > .tenant-steps-icon
-                        .tenant-steps-icon-dot {
-                        background: #108ee9;
-                    }
-                }
-                .dec {
-                    font-weight: bold;
-                }
-            }
+        .dec {
+          font-weight: bold;
         }
+      }
     }
+  }
 
-    .footer {
-        background: #fff;
-        text-align: center;
-        width: 100%;
-        height: 50px;
-        line-height: 50px;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-    }
+  .footer {
+    background: #fff;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
 }

@@ -11,7 +11,7 @@ axios.defaults.baseURL = serverConfig.baseURL;
 //开始请求设置，发起拦截处理
 axios.interceptors.request.use(
     config => {
-        // 如果开启 token 认证
+    // 如果开启 token 认证
         if (serverConfig.useTokenAuthorization) {
             config.headers['Authorization'] = localStorage.getItem('token'); // 请求头携带 token
         }
@@ -19,8 +19,7 @@ axios.interceptors.request.use(
         if (!config.headers['content-type']) {
             // 如果没有设置请求头
             if (config.method === 'post') {
-                config.headers['content-type'] =
-                    'application/x-www-form-urlencoded'; // post 请求
+                config.headers['content-type'] = 'application/x-www-form-urlencoded'; // post 请求
                 config.data = qs.stringify(config.data); // 序列化,比如表单数据
             } else {
                 config.headers['content-type'] = 'application/json'; // 默认类型

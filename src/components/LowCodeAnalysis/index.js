@@ -15,8 +15,7 @@ class LowCodeAnalysis extends React.Component {
     };
     init = async () => {
         const { projectSchema, packages } = this.props,
-            { componentsMap: componentsMapArray, componentsTree } =
-                projectSchema,
+            { componentsMap: componentsMapArray, componentsTree } = projectSchema,
             componentsMap = {};
 
         componentsMapArray.forEach(component => {

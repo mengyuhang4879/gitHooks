@@ -1,265 +1,265 @@
 [
-    {
-        "id": "0",
-        "fieldName": "全选"
+  {
+    "id": "0",
+    "fieldName": "全选"
+  },
+  {
+    "componentName": "Form.Item",
+    "id": "node_ocl79rwx9u3p",
+    "props": {
+      "label": "表单项1",
+      "labelAlign": "right",
+      "colon": true,
+      "required": true,
+      "noStyle": false,
+      "valuePropName": "value",
+      "name": "a",
+      "requiredobj": {
+        "required": true,
+        "message": "必填"
+      },
+      "typeobj": {
+        "type": "",
+        "message": ""
+      },
+      "lenobj": {
+        "max": "",
+        "min": "",
+        "message": ""
+      },
+      "patternobj": {
+        "pattern": "",
+        "message": ""
+      }
     },
-    {
-        "componentName": "Form.Item",
-        "id": "node_ocl79rwx9u3p",
-        "props": {
-            "label": "表单项1",
-            "labelAlign": "right",
-            "colon": true,
-            "required": true,
-            "noStyle": false,
-            "valuePropName": "value",
-            "name": "a",
-            "requiredobj": {
-                "required": true,
-                "message": "必填"
-            },
-            "typeobj": {
-                "type": "",
-                "message": ""
-            },
-            "lenobj": {
-                "max": "",
-                "min": "",
-                "message": ""
-            },
-            "patternobj": {
-                "pattern": "",
-                "message": ""
-            }
-        },
-        "hidden": false,
-        "title": "",
-        "isLocked": false,
-        "condition": true,
-        "conditionGroup": "",
-        "fieldName": "表单项1",
-        "fieldBehavior": "NORMAL"
+    "hidden": false,
+    "title": "",
+    "isLocked": false,
+    "condition": true,
+    "conditionGroup": "",
+    "fieldName": "表单项1",
+    "fieldBehavior": "NORMAL"
+  },
+  {
+    "componentName": "Form.Item",
+    "id": "node_ocl79rwx9u3r",
+    "props": {
+      "label": "表单项2",
+      "labelAlign": "right",
+      "colon": true,
+      "required": false,
+      "noStyle": false,
+      "valuePropName": "value",
+      "requiredobj": {
+        "required": "",
+        "message": ""
+      },
+      "typeobj": {
+        "type": "",
+        "message": ""
+      },
+      "lenobj": {
+        "max": "",
+        "min": "",
+        "message": ""
+      },
+      "patternobj": {
+        "pattern": "",
+        "message": ""
+      },
+      "name": "b"
     },
-    {
-        "componentName": "Form.Item",
-        "id": "node_ocl79rwx9u3r",
-        "props": {
-            "label": "表单项2",
-            "labelAlign": "right",
-            "colon": true,
-            "required": false,
-            "noStyle": false,
-            "valuePropName": "value",
-            "requiredobj": {
-                "required": "",
-                "message": ""
-            },
-            "typeobj": {
-                "type": "",
-                "message": ""
-            },
-            "lenobj": {
-                "max": "",
-                "min": "",
-                "message": ""
-            },
-            "patternobj": {
-                "pattern": "",
-                "message": ""
-            },
-            "name": "b"
-        },
-        "hidden": false,
-        "title": "",
-        "isLocked": false,
-        "condition": true,
-        "conditionGroup": "",
-        "fieldName": "表单项2",
-        "fieldBehavior": "READONLY"
+    "hidden": false,
+    "title": "",
+    "isLocked": false,
+    "condition": true,
+    "conditionGroup": "",
+    "fieldName": "表单项2",
+    "fieldBehavior": "READONLY"
+  },
+  {
+    "componentName": "Form.Item",
+    "id": "node_ocl79rwx9u3t",
+    "props": {
+      "label": "表单项3",
+      "labelAlign": "right",
+      "colon": true,
+      "required": false,
+      "noStyle": false,
+      "valuePropName": "value",
+      "requiredobj": {
+        "required": "",
+        "message": ""
+      },
+      "typeobj": {
+        "type": "",
+        "message": ""
+      },
+      "lenobj": {
+        "max": "",
+        "min": "",
+        "message": ""
+      },
+      "patternobj": {
+        "pattern": "",
+        "message": ""
+      },
+      "name": "c"
     },
-    {
-        "componentName": "Form.Item",
-        "id": "node_ocl79rwx9u3t",
-        "props": {
-            "label": "表单项3",
-            "labelAlign": "right",
-            "colon": true,
-            "required": false,
-            "noStyle": false,
-            "valuePropName": "value",
-            "requiredobj": {
-                "required": "",
-                "message": ""
-            },
-            "typeobj": {
-                "type": "",
-                "message": ""
-            },
-            "lenobj": {
-                "max": "",
-                "min": "",
-                "message": ""
-            },
-            "patternobj": {
-                "pattern": "",
-                "message": ""
-            },
-            "name": "c"
-        },
-        "hidden": false,
-        "title": "",
-        "isLocked": false,
-        "condition": true,
-        "conditionGroup": "",
-        "fieldName": "表单项3",
-        "fieldBehavior": "HIDDEN"
+    "hidden": false,
+    "title": "",
+    "isLocked": false,
+    "condition": true,
+    "conditionGroup": "",
+    "fieldName": "表单项3",
+    "fieldBehavior": "HIDDEN"
+  },
+  {
+    "componentName": "Form.Item",
+    "id": "node_ocl79rwx9u3v",
+    "props": {
+      "label": "表单项4",
+      "labelAlign": "right",
+      "colon": true,
+      "required": false,
+      "noStyle": false,
+      "valuePropName": "value",
+      "requiredobj": {
+        "required": "",
+        "message": ""
+      },
+      "typeobj": {
+        "type": "",
+        "message": ""
+      },
+      "lenobj": {
+        "max": "",
+        "min": "",
+        "message": ""
+      },
+      "patternobj": {
+        "pattern": "",
+        "message": ""
+      },
+      "name": "d"
     },
-    {
-        "componentName": "Form.Item",
-        "id": "node_ocl79rwx9u3v",
-        "props": {
-            "label": "表单项4",
-            "labelAlign": "right",
-            "colon": true,
-            "required": false,
-            "noStyle": false,
-            "valuePropName": "value",
-            "requiredobj": {
-                "required": "",
-                "message": ""
-            },
-            "typeobj": {
-                "type": "",
-                "message": ""
-            },
-            "lenobj": {
-                "max": "",
-                "min": "",
-                "message": ""
-            },
-            "patternobj": {
-                "pattern": "",
-                "message": ""
-            },
-            "name": "d"
-        },
-        "hidden": false,
-        "title": "",
-        "isLocked": false,
-        "condition": true,
-        "conditionGroup": "",
-        "fieldName": "表单项4",
-        "fieldBehavior": "NORMAL"
+    "hidden": false,
+    "title": "",
+    "isLocked": false,
+    "condition": true,
+    "conditionGroup": "",
+    "fieldName": "表单项4",
+    "fieldBehavior": "NORMAL"
+  },
+  {
+    "componentName": "Form.Item",
+    "id": "node_ocl79rwx9u43",
+    "props": {
+      "label": "表单项6",
+      "labelAlign": "right",
+      "colon": true,
+      "required": false,
+      "noStyle": false,
+      "valuePropName": "checked",
+      "name": "i",
+      "requiredobj": {
+        "required": "",
+        "message": ""
+      },
+      "typeobj": {
+        "type": "",
+        "message": ""
+      },
+      "lenobj": {
+        "max": "",
+        "min": "",
+        "message": ""
+      },
+      "patternobj": {
+        "pattern": "",
+        "message": ""
+      }
     },
-    {
-        "componentName": "Form.Item",
-        "id": "node_ocl79rwx9u43",
-        "props": {
-            "label": "表单项6",
-            "labelAlign": "right",
-            "colon": true,
-            "required": false,
-            "noStyle": false,
-            "valuePropName": "checked",
-            "name": "i",
-            "requiredobj": {
-                "required": "",
-                "message": ""
-            },
-            "typeobj": {
-                "type": "",
-                "message": ""
-            },
-            "lenobj": {
-                "max": "",
-                "min": "",
-                "message": ""
-            },
-            "patternobj": {
-                "pattern": "",
-                "message": ""
-            }
-        },
-        "hidden": false,
-        "title": "",
-        "isLocked": false,
-        "condition": true,
-        "conditionGroup": "",
-        "fieldName": "表单项6",
-        "fieldBehavior": "READONLY"
+    "hidden": false,
+    "title": "",
+    "isLocked": false,
+    "condition": true,
+    "conditionGroup": "",
+    "fieldName": "表单项6",
+    "fieldBehavior": "READONLY"
+  },
+  {
+    "componentName": "Form.Item",
+    "id": "node_ocl79rwx9u4k",
+    "props": {
+      "label": "",
+      "name": "item1",
+      "labelAlign": "right",
+      "colon": true,
+      "required": false,
+      "noStyle": false,
+      "valuePropName": "value",
+      "requiredobj": {
+        "required": "",
+        "message": ""
+      },
+      "typeobj": {
+        "type": "",
+        "message": ""
+      },
+      "lenobj": {
+        "max": "",
+        "min": "",
+        "message": ""
+      },
+      "patternobj": {
+        "pattern": "",
+        "message": ""
+      }
     },
-    {
-        "componentName": "Form.Item",
-        "id": "node_ocl79rwx9u4k",
-        "props": {
-            "label": "",
-            "name": "item1",
-            "labelAlign": "right",
-            "colon": true,
-            "required": false,
-            "noStyle": false,
-            "valuePropName": "value",
-            "requiredobj": {
-                "required": "",
-                "message": ""
-            },
-            "typeobj": {
-                "type": "",
-                "message": ""
-            },
-            "lenobj": {
-                "max": "",
-                "min": "",
-                "message": ""
-            },
-            "patternobj": {
-                "pattern": "",
-                "message": ""
-            }
-        },
-        "hidden": false,
-        "title": "",
-        "isLocked": false,
-        "condition": true,
-        "conditionGroup": "",
-        "fieldName": "InputNumber",
-        "fieldBehavior": "HIDDEN"
+    "hidden": false,
+    "title": "",
+    "isLocked": false,
+    "condition": true,
+    "conditionGroup": "",
+    "fieldName": "InputNumber",
+    "fieldBehavior": "HIDDEN"
+  },
+  {
+    "componentName": "Form.Item",
+    "id": "node_ocl79rwx9u4l",
+    "props": {
+      "label": "",
+      "name": "item2",
+      "labelAlign": "right",
+      "colon": true,
+      "required": false,
+      "noStyle": false,
+      "valuePropName": "value",
+      "requiredobj": {
+        "required": "",
+        "message": ""
+      },
+      "typeobj": {
+        "type": "",
+        "message": ""
+      },
+      "lenobj": {
+        "max": "",
+        "min": "",
+        "message": ""
+      },
+      "patternobj": {
+        "pattern": "",
+        "message": ""
+      }
     },
-    {
-        "componentName": "Form.Item",
-        "id": "node_ocl79rwx9u4l",
-        "props": {
-            "label": "",
-            "name": "item2",
-            "labelAlign": "right",
-            "colon": true,
-            "required": false,
-            "noStyle": false,
-            "valuePropName": "value",
-            "requiredobj": {
-                "required": "",
-                "message": ""
-            },
-            "typeobj": {
-                "type": "",
-                "message": ""
-            },
-            "lenobj": {
-                "max": "",
-                "min": "",
-                "message": ""
-            },
-            "patternobj": {
-                "pattern": "",
-                "message": ""
-            }
-        },
-        "hidden": false,
-        "title": "",
-        "isLocked": false,
-        "condition": true,
-        "conditionGroup": "",
-        "fieldName": "Input.TextArea",
-        "fieldBehavior": "NORMAL"
-    }
+    "hidden": false,
+    "title": "",
+    "isLocked": false,
+    "condition": true,
+    "conditionGroup": "",
+    "fieldName": "Input.TextArea",
+    "fieldBehavior": "NORMAL"
+  }
 ]

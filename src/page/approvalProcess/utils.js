@@ -1,6 +1,6 @@
 const getStatus = (componentItem, status) => {
     if (status === 'READONLY') {
-        //如果form.item设置了只读 那么需要设置其子元素都为disable
+    //如果form.item设置了只读 那么需要设置其子元素都为disable
         if (componentItem.children && componentItem.children.length > 0) {
             componentItem.children.forEach(v => (v.props.disabled = true));
         }
