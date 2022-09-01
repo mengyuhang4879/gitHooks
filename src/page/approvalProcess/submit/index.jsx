@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Schema from './schemaAndAuth/Schema.json';
 import Packages from '../../../Packages.json';
 import authStatus from './schemaAndAuth/authStatus.json';
@@ -16,8 +16,7 @@ const { Step } = Steps,
         const [schema, setSchema] = useState(Schema),
             //点击更改权限按钮
             handleChange = () => {
-                let schemaComponentsTree =
-                    schema.componentsTree[0].children || [];
+                let schemaComponentsTree = schema.componentsTree[0].children || [];
 
                 resolveSchema(schemaComponentsTree, authStatus);
                 let schemaClone = JSON.parse(JSON.stringify(schema));
@@ -61,11 +60,8 @@ const { Step } = Steps,
                         packages={Packages}
                     />
                     <Space>
-                        <Button
-                            type="primary"
-                            onClick={() => setIsModalVisible(true)}
-                        >
-                            提交
+                        <Button type="primary" onClick={() => setIsModalVisible(true)}>
+            提交
                         </Button>
                         <Button>取消</Button>
                     </Space>
@@ -89,18 +85,11 @@ const { Step } = Steps,
                                                 <PlusSquareOutlined />
                                             </div>
                                             <div>
-                                                <div className={style['title']}>
-                                                    {v.operatorName}
-                                                </div>
+                                                <div className={style['title']}>{v.operatorName}</div>
                                                 <TreeSelect
                                                     {...dic.treeProps}
                                                     value={v.treeNode}
-                                                    onChange={value =>
-                                                        handleChangeTreeNode(
-                                                            value,
-                                                            v
-                                                        )
-                                                    }
+                                                    onChange={value => handleChangeTreeNode(value, v)}
                                                     placeholder={`请添加审批人${v.showName}`}
                                                     treeData={v.treeData}
                                                 ></TreeSelect>
@@ -114,22 +103,11 @@ const { Step } = Steps,
                                     title={
                                         <div className={style['title-box']}>
                                             <div className={style['img-box']}>
-                                                <img
-                                                    src={v.operatorPhotoUrl}
-                                                    alt=""
-                                                />
+                                                <img src={v.operatorPhotoUrl} alt="" />
                                             </div>
                                             <div>
-                                                <div className={style['title']}>
-                                                    {v.operatorName}
-                                                </div>
-                                                <div
-                                                    className={
-                                                        style['tenant-title']
-                                                    }
-                                                >
-                                                    {v.showName}
-                                                </div>
+                                                <div className={style['title']}>{v.operatorName}</div>
+                                                <div className={style['tenant-title']}>{v.showName}</div>
                                             </div>
                                         </div>
                                     }

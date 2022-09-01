@@ -18,16 +18,14 @@ class App extends Component {
         actions.onGlobalStateChange(state => {
             console.log('我是子应用，我检测到数据了：hah', state);
             global.setGlobal(state);
-        }, true); //onGlobalStateChange的第二个参数设置为true，则会立即触发一次观察者函数
+        }, true);
     }
     render() {
         return (
             <div className="App">
                 <BrowserRouter
                     history={history}
-                    basename={
-                        window.__POWERED_BY_QIANKUN__ ? '/subProject' : '/'
-                    }
+                    basename={window.__POWERED_BY_QIANKUN__ ? '/subProject' : '/'}
                 >
                     <ConfigProvider prefixCls="tenant">
                         <Layout />

@@ -1,5 +1,6 @@
 import { Input, Button, Space, Col } from 'antd';
 import { inject, observer } from 'mobx-react';
+import React from 'react';
 
 const { TextArea } = Input,
     Comment = props => {
@@ -21,7 +22,7 @@ const { TextArea } = Input,
                     </Col>
                     <Col>
                         <Button type="primary" onClick={handleSubmit}>
-                            发表
+            发表
                         </Button>
                     </Col>
                 </Space>

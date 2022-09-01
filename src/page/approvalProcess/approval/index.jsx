@@ -5,11 +5,13 @@ import Header from './Header';
 import Content from './Content';
 import { toJS } from 'mobx';
 import { inject, observer } from 'mobx-react';
+import React from 'react';
 
 const Approval = props => {
     const { approval } = props.store,
         //获取从提交按钮传递过来的参数
         [params] = useSearchParams();
+
     let id = params.get('id');
 
     console.log(id);

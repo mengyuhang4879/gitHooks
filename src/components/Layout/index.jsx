@@ -5,7 +5,6 @@ import React, { Suspense } from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import './style.m.less';
 
-// loading页面
 const Loading = () => (
         <>
             <div className="loadsvg">
@@ -27,12 +26,9 @@ const Loading = () => (
                             </Suspense>
                         }
                     >
-                        {rotuerViews(children)} // 递归遍历子路由
+                        {rotuerViews(children)}
                         {redirect ? (
-                            <Route
-                                path={path}
-                                element={<Navigate to={redirect} />}
-                            ></Route>
+                            <Route path={path} element={<Navigate to={redirect} />}></Route>
                         ) : (
                             <Route
                                 path={path}
@@ -53,19 +49,19 @@ const Loading = () => (
                 );
             });
         }
-    };
+    },
 
-function GLayout() {
-    return (
-        <Layout>
-            <Content>
-                <Routes>
-                    {rotuerViews(routerItems)}
-                    <Route path="*" element={<NoMatch />} />
-                </Routes>
-            </Content>
-        </Layout>
-    );
-}
+    GLayout = () => {
+        return (
+            <Layout>
+                <Content>
+                    <Routes>
+                        {rotuerViews(routerItems)}
+                        <Route path="*" element={<NoMatch />} />
+                    </Routes>
+                </Content>
+            </Layout>
+        );
+    };
 
 export default GLayout;

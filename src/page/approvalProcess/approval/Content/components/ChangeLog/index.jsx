@@ -15,12 +15,11 @@ const { Step } = Steps,
                         <Steps progressDot current="" direction="vertical">
                             {v.details.map(vs => (
                                 <Step
+                                    key={vs.id}
                                     title={
                                         <>
                                             <p>{vs.time}</p>
-                                            <p className={style['dec']}>
-                                                {vs.dec}
-                                            </p>
+                                            <p className={style['dec']}>{vs.dec}</p>
                                         </>
                                     }
                                 />

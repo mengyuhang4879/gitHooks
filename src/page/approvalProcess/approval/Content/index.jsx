@@ -10,7 +10,7 @@ import ChangeLog from './components/ChangeLog';
 
 const { Step } = Steps,
     Content = props => {
-        //解构visible的原因是当此组件依赖的visible发生改变时会重新渲染，如果不解构出来则不会被重新渲染，那么就会导致LowCodeAnalysis组件获取不到ref的实例
+    //解构visible的原因是当此组件依赖的visible发生改变时会重新渲染，如果不解构出来则不会被重新渲染，那么就会导致LowCodeAnalysis组件获取不到ref的实例
         const {
                 dic,
                 setFormData,
@@ -31,9 +31,7 @@ const { Step } = Steps,
             //计算steps进度条
             curStep = dic.progressAry.reduce(
                 (prev, cur) =>
-                    cur.status && cur.status !== 'Processing'
-                        ? (prev += 1)
-                        : prev,
+                    cur.status && cur.status !== 'Processing' ? (prev += 1) : prev,
                 0
             );
 
@@ -59,11 +57,7 @@ const { Step } = Steps,
                                 title={
                                     <div>
                                         <div>
-                                            <span
-                                                style={{ marginRight: '5px' }}
-                                            >
-                                                {v.user}
-                                            </span>
+                                            <span style={{ marginRight: '5px' }}>{v.user}</span>
                                             <span>{v.time}</span>
                                         </div>
                                         <p>{v.subtitle}</p>
@@ -73,17 +67,14 @@ const { Step } = Steps,
                                     <>
                                         <span
                                             style={{
-                                                color: progressMap[v.status]
-                                                    .color,
+                                                color: progressMap[v.status].color,
                                                 fontWeight: 'bold',
                                                 marginRight: '5px'
                                             }}
                                         >
                                             {progressMap[v.status].text}
                                         </span>
-                                        {v.status !== 'submitted' ? (
-                                            <span>{v.dec}</span>
-                                        ) : null}
+                                        {v.status !== 'submitted' ? <span>{v.dec}</span> : null}
                                     </>
                                 }
                             />

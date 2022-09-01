@@ -8,64 +8,64 @@ class Approval {
         makeObservable(this);
     }
 
-    //mock数据
-    @observable
-        dic = dic;
+  //mock数据
+  @observable
+      dic = dic;
 
-    //schema
-    @observable
-        Schema = Schema;
+  //schema
+  @observable
+      Schema = Schema;
 
-    //权限列表
-    @observable
-        authStatus = authStatus;
+  //权限列表
+  @observable
+      authStatus = authStatus;
 
-    //弹窗
-    @observable
-        visible = false;
+  //弹窗
+  @observable
+      visible = false;
 
-    @action
-        setVisible = flag => {
-            this.visible = flag;
-        };
+  @action
+      setVisible = flag => {
+          this.visible = flag;
+      };
 
-    //schema表单数据
-    @observable
-        formData = {};
+  //schema表单数据
+  @observable
+      formData = {};
 
-    @action
-        setFormData = data => {
-            this.formData = data;
-        };
+  @action
+      setFormData = data => {
+          this.formData = data;
+      };
 
-    //审批意见
-    @observable
-        commentForm = {
-            approvalComments: '没意见'
-        };
+  //审批意见
+  @observable
+      commentForm = {
+          approvalComments: '没意见'
+      };
 
-    @action
-        onValuesChange = changedValues => {
-            this.commentForm = { ...this.commentForm, ...changedValues };
-        };
+  @action
+      onValuesChange = changedValues => {
+          this.commentForm = { ...this.commentForm, ...changedValues };
+      };
 
-    //内容模块其他单选状态
-    @observable
-        contentOtherStatus = '0';
+  //内容模块其他单选状态
+  @observable
+      contentOtherStatus = '0';
 
-    @action
-        setContentOtherStatus = e => {
-            this.contentOtherStatus = e.target.value;
-        };
+  @action
+      setContentOtherStatus = e => {
+          this.contentOtherStatus = e.target.value;
+      };
 
-    //评论
-    @observable
-        textAreaValue = '';
+  //评论
+  @observable
+      textAreaValue = '';
 
-    @action
-        setTextAreaValue = e => {
-            this.textAreaValue = e.target.value;
-        };
+  @action
+      setTextAreaValue = e => {
+          this.textAreaValue = e.target.value;
+      };
 }
 
 export default new Approval();

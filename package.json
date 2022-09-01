@@ -81,6 +81,7 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "fix-memory-limit": "cross-env LIMIT=3072  increase-memory-limit",
+    "lint": "eslint --ext .js,.jsx src --fix",
     "prepare": "husky install",
     "commit": "git-cz"
   },
@@ -170,12 +171,10 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/config-conventional": "^17.1.0",
     "commitizen": "^4.2.5",
     "commitlint": "^17.1.2",
     "commitlint-config-cz": "^0.13.3",
     "cross-env": "^7.0.3",
-    "cz-conventional-changelog": "^3.3.0",
     "cz-customizable": "^6.9.2",
     "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
@@ -186,7 +185,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-customizable"
+        "path": "./node_modules/cz-customizable"
     }
   }
 }

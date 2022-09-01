@@ -1,6 +1,7 @@
 import style from '../index.module.less';
 import { Tag, Space, Avatar } from 'antd';
 import { inject, observer } from 'mobx-react';
+import React from 'react';
 
 const Header = props => {
     const { info } = props.store.approval.dic;
