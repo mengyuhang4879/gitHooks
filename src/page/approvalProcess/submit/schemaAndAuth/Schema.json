@@ -1,0 +1,750 @@
+{
+    "version": "1.0.0",
+    "componentsMap": [
+        {
+            "package": "@alilc/antd-lowcode-materials",
+            "version": "1.0.9",
+            "exportName": "Image",
+            "main": "",
+            "destructuring": true,
+            "componentName": "Image"
+        },
+        {
+            "package": "@alilc/antd-lowcode-materials",
+            "version": "1.0.9",
+            "exportName": "Col",
+            "main": "",
+            "destructuring": true,
+            "componentName": "Col"
+        },
+        {
+            "package": "@alilc/antd-lowcode-materials",
+            "version": "1.0.9",
+            "exportName": "Row",
+            "main": "",
+            "destructuring": true,
+            "componentName": "Row"
+        },
+        {
+            "package": "@alilc/antd-lowcode-materials",
+            "version": "1.0.9",
+            "exportName": "Input",
+            "main": "",
+            "destructuring": true,
+            "componentName": "Input"
+        },
+        {
+            "package": "@alilc/antd-lowcode-materials",
+            "version": "1.0.9",
+            "exportName": "Form",
+            "main": "",
+            "destructuring": true,
+            "subName": "Item",
+            "componentName": "Form.Item"
+        },
+        {
+            "package": "@alilc/antd-lowcode-materials",
+            "version": "1.0.9",
+            "exportName": "InputNumber",
+            "main": "",
+            "destructuring": true,
+            "componentName": "InputNumber"
+        },
+        {
+            "package": "@alilc/antd-lowcode-materials",
+            "version": "1.0.9",
+            "exportName": "Input",
+            "main": "",
+            "destructuring": true,
+            "subName": "Password",
+            "componentName": "Input.Password"
+        },
+        {
+            "package": "@alilc/antd-lowcode-materials",
+            "version": "1.0.9",
+            "exportName": "Input",
+            "main": "",
+            "destructuring": true,
+            "subName": "TextArea",
+            "componentName": "Input.TextArea"
+        },
+        {
+            "package": "@alilc/antd-lowcode-materials",
+            "version": "1.0.9",
+            "exportName": "Switch",
+            "main": "",
+            "destructuring": true,
+            "componentName": "Switch"
+        },
+        {
+            "package": "@alilc/antd-lowcode-materials",
+            "version": "1.0.9",
+            "exportName": "Form",
+            "main": "",
+            "destructuring": true,
+            "componentName": "Form"
+        },
+        {
+            "devMode": "lowCode",
+            "componentName": "Page"
+        }
+    ],
+    "componentsTree": [
+        {
+            "componentName": "Page",
+            "id": "node_ocl78dixlf1",
+            "props": {},
+            "fileName": "sample",
+            "hidden": false,
+            "title": "",
+            "isLocked": false,
+            "condition": true,
+            "conditionGroup": "",
+            "children": [
+                {
+                    "componentName": "Row",
+                    "id": "node_ocl79rwx9u2l",
+                    "props": {
+                        "align": "top",
+                        "justify": "start",
+                        "wrap": false
+                    },
+                    "hidden": false,
+                    "title": "",
+                    "isLocked": false,
+                    "condition": true,
+                    "conditionGroup": "",
+                    "children": [
+                        {
+                            "componentName": "Col",
+                            "id": "node_ocl79rwx9u2m",
+                            "props": {
+                                "span": 8
+                            },
+                            "hidden": false,
+                            "title": "",
+                            "isLocked": false,
+                            "condition": true,
+                            "conditionGroup": "",
+                            "children": [
+                                {
+                                    "componentName": "Image",
+                                    "id": "node_ocl79rwx9u2p",
+                                    "props": {
+                                        "src": "data:image/jpeg;base64,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",
+                                        "height": 120,
+                                        "width": 120,
+                                        "alt": "",
+                                        "preview": false,
+                                        "fallback": ""
+                                    },
+                                    "hidden": false,
+                                    "title": "",
+                                    "isLocked": false,
+                                    "condition": true,
+                                    "conditionGroup": ""
+                                }
+                            ]
+                        },
+                        {
+                            "componentName": "Col",
+                            "id": "node_ocl79rwx9u2n",
+                            "props": {
+                                "span": 8,
+                                "order": 0
+                            },
+                            "hidden": false,
+                            "title": "",
+                            "isLocked": false,
+                            "condition": true,
+                            "conditionGroup": "",
+                            "children": [
+                                {
+                                    "componentName": "Image",
+                                    "id": "node_ocl79rwx9u2u",
+                                    "props": {
+                                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWmfYZYx0JMpPKWaqyQ5f2QAUW0JSN0aKc3A&usqp=CAU",
+                                        "height": 120,
+                                        "width": 120,
+                                        "alt": "",
+                                        "preview": false,
+                                        "fallback": ""
+                                    },
+                                    "hidden": false,
+                                    "title": "",
+                                    "isLocked": false,
+                                    "condition": true,
+                                    "conditionGroup": ""
+                                }
+                            ]
+                        },
+                        {
+                            "componentName": "Col",
+                            "id": "node_ocl79rwx9u2o",
+                            "props": {
+                                "span": 8
+                            },
+                            "hidden": false,
+                            "title": "",
+                            "isLocked": false,
+                            "condition": true,
+                            "conditionGroup": "",
+                            "children": [
+                                {
+                                    "componentName": "Image",
+                                    "id": "node_ocl79rwx9u3n",
+                                    "props": {
+                                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPevYbuwNP_Jv5Oz017aOkqZ8UNhK6aX6PNw&usqp=CAU",
+                                        "height": 120,
+                                        "width": 120,
+                                        "alt": "",
+                                        "preview": false,
+                                        "fallback": ""
+                                    },
+                                    "hidden": false,
+                                    "title": "",
+                                    "isLocked": false,
+                                    "condition": true,
+                                    "conditionGroup": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "componentName": "Form",
+                    "id": "node_ocl79rwx9u3o",
+                    "props": {
+                        "labelCol": {
+                            "span": 6
+                        },
+                        "wrapperCol": {
+                            "span": 14
+                        },
+                        "onValuesChange": {
+                            "type": "JSExpression",
+                            "value": "function() {\n      const self = this;\n      try {\n        return (function onValuesChange(changedValues, allValues) {\n  console.log('onValuesChange', changedValues, allValues);\n}).apply(self, arguments);\n      } catch(e) {\n        console.log('call function which parsed by lowcode failed: ', e);\n        return e.message;\n      }\n    }"
+                        },
+                        "onFinish": {
+                            "type": "JSExpression",
+                            "value": "function() {\n      const self = this;\n      try {\n        return (function onFinish(values) {\n  console.log('onFinish', values);\n}).apply(self, arguments);\n      } catch(e) {\n        console.log('call function which parsed by lowcode failed: ', e);\n        return e.message;\n      }\n    }"
+                        },
+                        "onFinishFailed": {
+                            "type": "JSExpression",
+                            "value": "function() {\n      const self = this;\n      try {\n        return (function onFinishFailed({ values, errorFields, outOfDate }) {\n  console.log('onFinishFailed', values, errorFields, outOfDate);\n}).apply(self, arguments);\n      } catch(e) {\n        console.log('call function which parsed by lowcode failed: ', e);\n        return e.message;\n      }\n    }"
+                        },
+                        "name": "basic",
+                        "ref": "form_l8ri",
+                        "colon": true,
+                        "hideRequiredMark": false,
+                        "labelAlign": "right",
+                        "layout": "horizontal",
+                        "preserve": true,
+                        "scrollToFirstError": true,
+                        "size": "middle",
+                        "validateMessages": {
+                            "required": "'${name}' 不能为空"
+                        }
+                    },
+                    "hidden": false,
+                    "title": "",
+                    "isLocked": false,
+                    "condition": true,
+                    "conditionGroup": "",
+                    "children": [
+                        {
+                            "componentName": "Form.Item",
+                            "id": "node_ocl79rwx9u3p",
+                            "props": {
+                                "label": "表单项1",
+                                "labelAlign": "right",
+                                "colon": true,
+                                "required": true,
+                                "noStyle": false,
+                                "valuePropName": "value",
+                                "name": "a",
+                                "requiredobj": {
+                                    "required": true,
+                                    "message": "必填"
+                                },
+                                "typeobj": {
+                                    "type": "",
+                                    "message": ""
+                                },
+                                "lenobj": {
+                                    "max": "",
+                                    "min": "",
+                                    "message": ""
+                                },
+                                "patternobj": {
+                                    "pattern": "",
+                                    "message": ""
+                                }
+                            },
+                            "hidden": false,
+                            "title": "",
+                            "isLocked": false,
+                            "condition": true,
+                            "conditionGroup": "",
+                            "children": [
+                                {
+                                    "componentName": "Input",
+                                    "id": "node_ocl79rwx9u3q",
+                                    "props": {
+                                        "placeholder": "请输入",
+                                        "bordered": true,
+                                        "disabled": false,
+                                        "size": "middle"
+                                    },
+                                    "hidden": false,
+                                    "title": "",
+                                    "isLocked": false,
+                                    "condition": true,
+                                    "conditionGroup": ""
+                                }
+                            ]
+                        },
+                        {
+                            "componentName": "Form.Item",
+                            "id": "node_ocl79rwx9u3r",
+                            "props": {
+                                "label": "表单项2",
+                                "labelAlign": "right",
+                                "colon": true,
+                                "required": false,
+                                "noStyle": false,
+                                "valuePropName": "value",
+                                "requiredobj": {
+                                    "required": "",
+                                    "message": ""
+                                },
+                                "typeobj": {
+                                    "type": "",
+                                    "message": ""
+                                },
+                                "lenobj": {
+                                    "max": "",
+                                    "min": "",
+                                    "message": ""
+                                },
+                                "patternobj": {
+                                    "pattern": "",
+                                    "message": ""
+                                },
+                                "name": "b"
+                            },
+                            "hidden": false,
+                            "title": "",
+                            "isLocked": false,
+                            "condition": true,
+                            "conditionGroup": "",
+                            "children": [
+                                {
+                                    "componentName": "InputNumber",
+                                    "id": "node_ocl79rwx9u3s",
+                                    "props": {
+                                        "placeholder": "请输入",
+                                        "autoFocus": false,
+                                        "disabled": false,
+                                        "controls": true,
+                                        "bordered": true,
+                                        "size": "middle"
+                                    },
+                                    "hidden": false,
+                                    "title": "",
+                                    "isLocked": false,
+                                    "condition": true,
+                                    "conditionGroup": ""
+                                }
+                            ]
+                        },
+                        {
+                            "componentName": "Form.Item",
+                            "id": "node_ocl79rwx9u3t",
+                            "props": {
+                                "label": "表单项3",
+                                "labelAlign": "right",
+                                "colon": true,
+                                "required": false,
+                                "noStyle": false,
+                                "valuePropName": "value",
+                                "requiredobj": {
+                                    "required": "",
+                                    "message": ""
+                                },
+                                "typeobj": {
+                                    "type": "",
+                                    "message": ""
+                                },
+                                "lenobj": {
+                                    "max": "",
+                                    "min": "",
+                                    "message": ""
+                                },
+                                "patternobj": {
+                                    "pattern": "",
+                                    "message": ""
+                                },
+                                "name": "c"
+                            },
+                            "hidden": false,
+                            "title": "",
+                            "isLocked": false,
+                            "condition": true,
+                            "conditionGroup": "",
+                            "children": [
+                                {
+                                    "componentName": "Input.Password",
+                                    "id": "node_ocl79rwx9u3u",
+                                    "props": {
+                                        "bordered": true,
+                                        "disabled": false,
+                                        "visibilityToggle": true,
+                                        "placeholder": "请输入",
+                                        "size": "middle"
+                                    },
+                                    "hidden": false,
+                                    "title": "",
+                                    "isLocked": false,
+                                    "condition": true,
+                                    "conditionGroup": ""
+                                }
+                            ]
+                        },
+                        {
+                            "componentName": "Form.Item",
+                            "id": "node_ocl79rwx9u3v",
+                            "props": {
+                                "label": "表单项4",
+                                "labelAlign": "right",
+                                "colon": true,
+                                "required": false,
+                                "noStyle": false,
+                                "valuePropName": "value",
+                                "requiredobj": {
+                                    "required": "",
+                                    "message": ""
+                                },
+                                "typeobj": {
+                                    "type": "",
+                                    "message": ""
+                                },
+                                "lenobj": {
+                                    "max": "",
+                                    "min": "",
+                                    "message": ""
+                                },
+                                "patternobj": {
+                                    "pattern": "",
+                                    "message": ""
+                                },
+                                "name": "d"
+                            },
+                            "hidden": false,
+                            "title": "",
+                            "isLocked": false,
+                            "condition": true,
+                            "conditionGroup": "",
+                            "children": [
+                                {
+                                    "componentName": "Input.TextArea",
+                                    "id": "node_ocl79rwx9u3w",
+                                    "props": {
+                                        "autoSize": {
+                                            "minRows": 3,
+                                            "maxRows": 3
+                                        },
+                                        "placeholder": "请输入",
+                                        "bordered": true,
+                                        "disabled": false,
+                                        "showCount": false,
+                                        "size": "middle"
+                                    },
+                                    "hidden": false,
+                                    "title": "",
+                                    "isLocked": false,
+                                    "condition": true,
+                                    "conditionGroup": ""
+                                }
+                            ]
+                        },
+                        {
+                            "componentName": "Form.Item",
+                            "id": "node_ocl79rwx9u3x",
+                            "props": {
+                                "label": "表单项5",
+                                "name": "e",
+                                "labelAlign": "right",
+                                "colon": true,
+                                "required": false,
+                                "noStyle": false,
+                                "valuePropName": "value",
+                                "requiredobj": {
+                                    "required": "",
+                                    "message": ""
+                                },
+                                "typeobj": {
+                                    "type": "",
+                                    "message": ""
+                                },
+                                "lenobj": {
+                                    "max": "",
+                                    "min": "",
+                                    "message": ""
+                                },
+                                "patternobj": {
+                                    "pattern": "",
+                                    "message": ""
+                                }
+                            },
+                            "hidden": false,
+                            "title": "",
+                            "isLocked": false,
+                            "condition": true,
+                            "conditionGroup": "",
+                            "children": [
+                                {
+                                    "componentName": "Form.Item",
+                                    "id": "node_ocl79rwx9u4c",
+                                    "props": {
+                                        "label": "",
+                                        "labelAlign": "right",
+                                        "colon": true,
+                                        "required": false,
+                                        "noStyle": false,
+                                        "valuePropName": "value",
+                                        "requiredobj": {
+                                            "required": "",
+                                            "message": ""
+                                        },
+                                        "typeobj": {
+                                            "type": "",
+                                            "message": ""
+                                        },
+                                        "lenobj": {
+                                            "max": "",
+                                            "min": "",
+                                            "message": ""
+                                        },
+                                        "patternobj": {
+                                            "pattern": "",
+                                            "message": ""
+                                        }
+                                    },
+                                    "hidden": false,
+                                    "title": "",
+                                    "isLocked": false,
+                                    "condition": true,
+                                    "conditionGroup": "",
+                                    "children": [
+                                        {
+                                            "componentName": "Form.Item",
+                                            "id": "node_ocl79rwx9u4k",
+                                            "props": {
+                                                "label": "",
+                                                "name": "item1",
+                                                "labelAlign": "right",
+                                                "colon": true,
+                                                "required": false,
+                                                "noStyle": false,
+                                                "valuePropName": "value",
+                                                "requiredobj": {
+                                                    "required": "",
+                                                    "message": ""
+                                                },
+                                                "typeobj": {
+                                                    "type": "",
+                                                    "message": ""
+                                                },
+                                                "lenobj": {
+                                                    "max": "",
+                                                    "min": "",
+                                                    "message": ""
+                                                },
+                                                "patternobj": {
+                                                    "pattern": "",
+                                                    "message": ""
+                                                }
+                                            },
+                                            "hidden": false,
+                                            "title": "",
+                                            "isLocked": false,
+                                            "condition": true,
+                                            "conditionGroup": "",
+                                            "children": [
+                                                {
+                                                    "componentName": "InputNumber",
+                                                    "id": "node_ocl79rwx9u4m",
+                                                    "props": {
+                                                        "placeholder": "请输入",
+                                                        "autoFocus": false,
+                                                        "disabled": false,
+                                                        "controls": true,
+                                                        "bordered": true,
+                                                        "size": "middle"
+                                                    },
+                                                    "hidden": false,
+                                                    "title": "",
+                                                    "isLocked": false,
+                                                    "condition": true,
+                                                    "conditionGroup": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "componentName": "Form.Item",
+                                    "id": "node_ocl79rwx9u4d",
+                                    "props": {
+                                        "label": "",
+                                        "labelAlign": "right",
+                                        "colon": true,
+                                        "required": false,
+                                        "noStyle": false,
+                                        "valuePropName": "value",
+                                        "requiredobj": {
+                                            "required": "",
+                                            "message": ""
+                                        },
+                                        "typeobj": {
+                                            "type": "",
+                                            "message": ""
+                                        },
+                                        "lenobj": {
+                                            "max": "",
+                                            "min": "",
+                                            "message": ""
+                                        },
+                                        "patternobj": {
+                                            "pattern": "",
+                                            "message": ""
+                                        }
+                                    },
+                                    "hidden": false,
+                                    "title": "",
+                                    "isLocked": false,
+                                    "condition": true,
+                                    "conditionGroup": "",
+                                    "children": [
+                                        {
+                                            "componentName": "Form.Item",
+                                            "id": "node_ocl79rwx9u4l",
+                                            "props": {
+                                                "label": "",
+                                                "name": "item2",
+                                                "labelAlign": "right",
+                                                "colon": true,
+                                                "required": false,
+                                                "noStyle": false,
+                                                "valuePropName": "value",
+                                                "requiredobj": {
+                                                    "required": "",
+                                                    "message": ""
+                                                },
+                                                "typeobj": {
+                                                    "type": "",
+                                                    "message": ""
+                                                },
+                                                "lenobj": {
+                                                    "max": "",
+                                                    "min": "",
+                                                    "message": ""
+                                                },
+                                                "patternobj": {
+                                                    "pattern": "",
+                                                    "message": ""
+                                                }
+                                            },
+                                            "hidden": false,
+                                            "title": "",
+                                            "isLocked": false,
+                                            "condition": true,
+                                            "conditionGroup": "",
+                                            "children": [
+                                                {
+                                                    "componentName": "Input.TextArea",
+                                                    "id": "node_ocl79rwx9u4p",
+                                                    "props": {
+                                                        "autoSize": {
+                                                            "minRows": 3,
+                                                            "maxRows": 3
+                                                        },
+                                                        "placeholder": "请输入",
+                                                        "bordered": true,
+                                                        "disabled": false,
+                                                        "showCount": false,
+                                                        "size": "middle"
+                                                    },
+                                                    "hidden": false,
+                                                    "title": "",
+                                                    "isLocked": false,
+                                                    "condition": true,
+                                                    "conditionGroup": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "componentName": "Form.Item",
+                            "id": "node_ocl79rwx9u43",
+                            "props": {
+                                "label": "表单项6",
+                                "labelAlign": "right",
+                                "colon": true,
+                                "required": false,
+                                "noStyle": false,
+                                "valuePropName": "checked",
+                                "name": "i",
+                                "requiredobj": {
+                                    "required": "",
+                                    "message": ""
+                                },
+                                "typeobj": {
+                                    "type": "",
+                                    "message": ""
+                                },
+                                "lenobj": {
+                                    "max": "",
+                                    "min": "",
+                                    "message": ""
+                                },
+                                "patternobj": {
+                                    "pattern": "",
+                                    "message": ""
+                                }
+                            },
+                            "hidden": false,
+                            "title": "",
+                            "isLocked": false,
+                            "condition": true,
+                            "conditionGroup": "",
+                            "children": [
+                                {
+                                    "componentName": "Switch",
+                                    "id": "node_ocl79rwx9u44",
+                                    "props": {
+                                        "defaultChecked": false,
+                                        "autoFocus": false,
+                                        "disabled": false,
+                                        "loading": false,
+                                        "size": "default"
+                                    },
+                                    "hidden": false,
+                                    "title": "",
+                                    "isLocked": false,
+                                    "condition": true,
+                                    "conditionGroup": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "i18n": {}
+}
