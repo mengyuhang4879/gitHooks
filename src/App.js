@@ -16,7 +16,7 @@ class App extends Component {
         const { global } = this.props.store;
 
         actions.onGlobalStateChange(state => {
-            console.log('我是子应用，我检测到数据了：hahaaa', state);
+            console.log('我是子应用，我检测到数据了：hahaaafff', state);
             global.setGlobal(state);
         }, true);
     }
