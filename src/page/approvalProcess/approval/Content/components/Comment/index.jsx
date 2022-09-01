@@ -22,7 +22,7 @@ const { TextArea } = Input,
                     </Col>
                     <Col>
                         <Button type="primary" onClick={handleSubmit}>
-            发表
+              发表
                         </Button>
                     </Col>
                 </Space>

@@ -50,7 +50,6 @@ const Loading = () => (
             });
         }
     },
-
     GLayout = () => {
         return (
             <Layout>

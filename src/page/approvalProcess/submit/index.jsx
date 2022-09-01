@@ -61,7 +61,7 @@ const { Step } = Steps,
                     />
                     <Space>
                         <Button type="primary" onClick={() => setIsModalVisible(true)}>
-            提交
+              提交
                         </Button>
                         <Button>取消</Button>
                     </Space>
@@ -107,7 +107,9 @@ const { Step } = Steps,
                                             </div>
                                             <div>
                                                 <div className={style['title']}>{v.operatorName}</div>
-                                                <div className={style['tenant-title']}>{v.showName}</div>
+                                                <div className={style['tenant-title']}>
+                                                    {v.showName}
+                                                </div>
                                             </div>
                                         </div>
                                     }
