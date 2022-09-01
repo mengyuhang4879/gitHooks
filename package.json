@@ -171,7 +171,6 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/config-conventional": "^17.1.0",
     "commitizen": "^4.2.5",
     "commitlint": "^17.1.2",
     "cross-env": "^7.0.3",
@@ -182,7 +181,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/cz-customizable"
     }
   }
 }
